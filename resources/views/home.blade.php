@@ -18,10 +18,14 @@
 <body>
 
     <main class="bg-light">
+        @include('partials.header')
         <div class="container">
             <h1>let'sgo</h1>
         </div>
     </main>
+
+
+    @include('partials.footer')
 
 </body>
 
